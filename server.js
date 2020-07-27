@@ -28,9 +28,7 @@ app.get('/name',function(req,res)
 {id:3,name:'jim',deposit:15}
     ]
 return res.send( Object.values (accounts));
-app.get('/name/:nameid',function(req,res){
-    return res.send(accounts [req.params.nameid]);
-    });
+
 
 }
 
